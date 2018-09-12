@@ -1,10 +1,38 @@
-div{
+div {
     width: 100px;
     height: 100px;
     background-color: cadetblue;
 }
-.div2{
-    transform: translate(100px,100px);
-    -webkit-transform: translate(100px,100px);/*谷歌*/
-    -ms-transform: translate(100px,100px);/*IE*/
-}
+
+/* .div2 {
+    transform: translate(100px, 100px);
+    -webkit-transform: translate(100px, 100px);
+    /*谷歌*/
+/* -ms-transform: translate(100px, 100px); */
+/*IE*/
+/* } */
+
+/* .div2 {
+    transform: rotate(60deg);
+    -webkit-transform:  rotate(60deg);
+    /*谷歌*/
+/* -ms-transform: translate(100px, 100px); */
+/*IE*/
+/* } */
+/* .div2 {
+    margin: 200px;
+    transform: scale(1, 2);
+    -webkit-transform: scale(1, 2);
+} */
+/* .div2 {
+    margin: 200px;
+    transform: skew(100deg, 100deg);
+    -webkit-transform: skew(100deg, 100deg);
+} */
+/* .div2 {
+    margin: 200px;
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+    -webkit-transform: rotateX(10deg);
+    -webkit-transform: rotateY(10deg);
+} */

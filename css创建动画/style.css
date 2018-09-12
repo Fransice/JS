@@ -1,0 +1,73 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    position: relative;
+    animation: anim 3s infinite alternate;
+    -webkit-animation: anim 3s infinite alternate;
+    margin: 90px auto;
+}
+
+@keyframes anim {
+    0% {
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background: blue;
+        left: 600px;
+        top: 0px;
+    }
+
+    50% {
+        background: rgb(60, 190, 207);
+        left: 0px;
+        top: 600px;
+    }
+
+    75% {
+        background: rgb(226, 52, 160);
+        left: 600px;
+        top: 600px;
+    }
+
+    100% {
+        background: rgb(161, 81, 35);
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes anim {
+    0% {
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background: blue;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background: rgb(60, 190, 207);
+        left: 0px;
+        top: 200px;
+    }
+
+    75% {
+        background: rgb(226, 52, 160);
+        left: 200px;
+        top: 200px;
+    }
+
+    100% {
+        background: rgb(161, 81, 35);
+        left: 0px;
+        top: 0px;
+    }
+}
